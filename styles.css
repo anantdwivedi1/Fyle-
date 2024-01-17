@@ -1,0 +1,158 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 20px;
+    background-color: #f6f8fa;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #24292e;
+    margin-top: 0; 
+  }
+  
+  
+  #profile-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  #avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  #user-info {
+    color: #fff;
+  }
+  
+  #user-info h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #user-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  #user-info p i {
+    margin-right: 5px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  #loader {
+    display: none;
+    text-align: center;
+    font-style: italic;
+    color: #586069;
+  }
+  
+  .repos-container {
+    display: flex;
+  }
+  
+  .repo-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .repo-item {
+    border: 1px solid #e1e4e8;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+  }
+  
+  .repo-item strong {
+    color: #0366d6;
+  }
+  
+  .repo-item a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  
+  .repo-item a:hover {
+    text-decoration: underline;
+  }
+  
+/* Add your existing styles here */
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls button {
+    margin: 0 5px;
+    padding: 8px;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:hover {
+    background-color: #003366;
+  }
+  
+  #page-numbers {
+    display: flex;
+    align-items: center;
+  }
+  
+  #page-numbers button {
+    margin: 0 5px;
+    padding: 8px;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  #page-numbers button:hover {
+    background-color: #003366;
+  }
+  
+  .pagination-controls span {
+    margin: 0 5px;
+  }
+  
+  
+  button {
+    margin: 0 5px;
+    padding: 8px;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003366;
+  }
+  
